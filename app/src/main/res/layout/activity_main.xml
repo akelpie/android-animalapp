@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="189dp"
+        android:layout_height="175dp"
+        android:src="@drawable/cutecat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ImageView
+        android:id="@+id/imagebar"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:src="@drawable/levelbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Meow Meow 😸"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505" />
+
+    <TextView
+        android:id="@+id/treat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="264dp"
+        android:text="Lesson Complete!"
+        android:textAlignment="center"
+        android:textCursorDrawable="@null"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.395"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/treat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Combo Bonus!"
+        android:textAlignment="center"
+        android:textCursorDrawable="@null"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/treat"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="@+id/treat"
+        app:layout_constraintTop_toBottomOf="@+id/treat" />
+
+    <Button
+        android:id="@+id/treat3"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="164dp"
+        android:backgroundTint="@color/yellow"
+        android:text="MEAT 🥩"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/treat"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="@+id/treat"
+        app:layout_constraintTop_toBottomOf="@+id/treat" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/treat2"-->
+<!--        android:layout_width="280dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:backgroundTint="@color/yellow1"-->
+<!--        android:text="Banana 🍌"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textCursorDrawable="@null"-->
+<!--        app:cornerRadius="15dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/treat1"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/treat1"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/treat1" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/treat3"-->
+<!--        android:layout_width="280dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:backgroundTint="@color/yellow2"-->
+<!--        android:text="Cooked Baby Carrots 🥕"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textCursorDrawable="@null"-->
+<!--        app:cornerRadius="15dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/treat2"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/treat2"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/treat2" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
